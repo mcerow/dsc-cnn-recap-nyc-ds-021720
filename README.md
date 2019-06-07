@@ -1,9 +1,9 @@
 
-# Section Recap
+# CNN Recap
 
 ## Introduction
 
-This short lesson summarizes key takeaways from section 43.
+Well done! In this section you learned all about convolutional neural networks! You should now have enough of an introductory primer to be able to do some image recognition tasks on your own!
 
 ## Objectives
 You will be able to:
@@ -12,13 +12,11 @@ You will be able to:
 
 ## Key Takeaways
 
-The key takeaways from this section include:
+Remember that the essence of a CNN is the convolutional operation. A window is slided across the image based on a stride size. Padding can be used to prevent shrinkage and to make sure pixels at the edge of an image deserve the necessary attention. Each convolution then works to adjust the weights of the kernel through backpropagation  during training. Going back to the general architecture, max pooling is typically used between convolutional layers to reduce the dimensionality. 
 
-* CNN are often preferred over densely connected networks when the goal is to perform image classification
-* Using CNNs instead of densely connected networks can drastically decrease the amount of parameters needed (and as a consequence, increase the speed)
-* When building a CNN, the end of the network architecture always connects back to a densely connected network to perform classification
-* At the most basic level, a convolution is particularly good at detecting small image features, such as horizontal or vertical edges
-* Convolutions use *filter* to detect these small patterns, and these filters are generally of size 3x3 or 5x5.
-* In CNNs, padding can be used to prevent shrinkage and to make sure pixels at the edge of an image deserve the necessary attention
-* To understand CNN structures and how the dimensions change in each layer, it is important to understand how filters work and how the number of filters affect the network structure.
-* When visualizing intermediate layers in a CNN, you noticed that images become more abstract with each layer we add to a CNN
+Overall, CNNs are a useful model for image recognition due to their ability to recognize visual patterns at varying scales. After developing the convolutional and pooling layers to form a base, the end of the network architecture still connects back to a densely connected network to perform classification.
+
+
+## Summary
+
+In this section you learned all about convolutional neural networks! From here, you'll learn more about tuning neural networks and other neural network architectures!
