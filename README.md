@@ -1,14 +1,10 @@
 
-# CNN Recap
+# Convolutional Neural Networks - Recap 
 
 ## Introduction
 
-Well done! In this section you learned all about convolutional neural networks! You should now have enough of an introductory primer to be able to do some image recognition tasks on your own!
+Well done! In this section you learned all about convolutional neural networks! You should now have enough of an introductory primer to be able to do some image recognition tasks on your own! 
 
-## Objectives
-You will be able to:
-* Understand and explain what was covered in this section
-* Understand and explain why this section will help you become a data scientist
 
 ## Key Takeaways
 
